@@ -28,9 +28,7 @@ with the virgo. Refer to files below for how to use this function.
 ## List of files in tests/
 Running these files to obtain the empirical results in the paper's appendix. These results are evidences for theoretically analysis.
 
-* p_sigma_l.py: to estimate the probability of sigma_l, which should be approximately equal to (sigma)^l
-    while the latter one is approximately equal to 0.5, thus sigma_l is 0.5^l
-* corr_sigma_prod_w: to estimate the correlation between sigma and prod_w, sigma^2 and prod_w^2,
-    which should be approximately 0.
-* corr_paths: to estimate the correlation between different message propagation paths
-* corr_prod_w: to estimate the correlation between different weight paths
+* p_sigma_l.py: to estimate the probability of $\sigma_l$, which should be approximately equal to $\sigma^l$, where the latter one is approximately equal to 0.5, thus $\sigma_l$ is $0.5^l$.
+* corr_sigma_prod_w: to estimate the correlation between $\sigma$ and $\prod w$, $\sigma^2$ and $\prod w^2$, which should be approximately 0.
+* corr_paths: to estimate the correlation between different message propagation paths.
+* corr_prod_w: to estimate the correlation between different weight propagation paths.
