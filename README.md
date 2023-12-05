@@ -5,7 +5,7 @@ The codes for the ICML 2023 paper [On the Initialization of Graph Neural Network
 DGL>=0.8.0, PyTorch>=1.13.1, PyG>=2.0.0, OGB>=1.3.6
 
 ## Usage
-Simply running with `python [file_name].py`. Please refer to the appendix of the paper for furture details of hyperparameter tunning.
+Simply running with `python [file_name].py`. Please refer to the appendix of the paper for details of hyperparameter tunning.
 
 ## List of files in the main directory
 * utils.py and utils_pyg.py: provide **implementations of virgo initializations**. Specifically, `init_layers` function initializes each layer's learnable weights
