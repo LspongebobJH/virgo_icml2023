@@ -9,7 +9,7 @@ Simply running with `python [file_name].py`. Please refer to the appendix of the
 
 ## List of files in the main directory
 * utils.py and utils_pyg.py: provide **implementations of virgo initializations**. Specifically, `init_layers` function initializes each layer's learnable weights
-with the virgo. Refer to files below for how to use this function.
+with the virgo. Note that I use DGL's `GraphConv` and PyG's `GCNConv` without weight and bias to implement the cumulative multiplication of adjacent matrices (`class Aggr` in `utils.py` and `utils_pyg.py`). They are much more efficient than using ordinary PyTorch's matrix operations. Refer to files below for how to use `init_layers`.
 
 > Below `nc`, `lp` and `gc` means `node classification`, `link prediction` and `graph classification` tasks, respectively. 
 > comp* : `dataset, ..` + `model, ..` + `task, ..`. Meaning that experimenting the `models, ..` on datasets `dataset, ..` with tasks `task, ..`
